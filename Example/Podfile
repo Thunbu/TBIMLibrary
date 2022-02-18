@@ -1,0 +1,21 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+source 'https://github.com/Thunbu/TBIMSpec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TBIMLibrary_Example' do
+  pod 'TBIMLibrary', :path => '../'
+#  pod 'TBIMLibrary', '0.0.100'
+  pod 'AFNetworking'
+
+  target 'TBIMLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
