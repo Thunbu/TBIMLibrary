@@ -24,7 +24,7 @@ TBIMLibrary is easy to use !
   s.homepage         = 'https://github.com/Thunbu/TBIMLibrary.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sunshine218' => '215206318@qq.com' }
+  s.author           = { 'Sunshine2180' => '215206318@qq.com' }
   s.source           = { :git => 'https://github.com/Thunbu/TBIMLibrary.git', :tag => "#{s.version}" }
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
